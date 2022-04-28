@@ -1,0 +1,137 @@
+.layout{
+    position: relative;
+width: 1392px;
+height: 60px;
+left: 429px;
+top: 324px;
+
+background: #FFFFFF;
+}
+
+.listcircle{
+    /* position: relative; */
+width: 20px;
+height: 20px;
+padding-top: 5px;
+
+
+/* background: #c70000; */
+/* Gray 5 */
+
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 50%;
+/* margin-top: 20px ; */
+margin-left: 10px;
+}
+
+.listrole{
+    /* position: absolute; */
+width: 249.81px;
+height: 60px;
+/* left: 492.84px;
+top: 324px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+color: #000000;
+}
+
+.accesslevel{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 160px;
+height: 30px;
+left: 860px;
+top: 339px;
+
+background: rgba(39, 174, 96, 0.3);
+/* Green 2 */
+
+border: 1px solid #27AE60;
+box-sizing: border-box;
+border-radius: 20px;
+/* margin-top: 15px ; */
+
+}
+
+.listnum{
+    /* position: absolute; */
+width: 249.81px;
+height: 60px;
+left: 1143.74px;
+top: 324px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2px;
+margin-left: 7rem;
+
+color: #000000;
+}
+
+.latupdate{
+    /* position: absolute; */
+width: 249.81px;
+height: 60px;
+left: 1476.82px;
+top: 386px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #000000;
+
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around   ;
+    align-items: center;
+    /* background-color: rgb(212, 230, 230); */
+    border: 0.1px solid rgb(179, 176, 176);
+
+    box-shadow: 1px 1px rgb(104, 102, 102);
+}
+
+.eye{
+    height: 16px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+ 
+background: #DADADA;
+}
+
+.oval {
+    width: 25px;
+    height: 15px;
+    /* background: #a84909; */
+    border: 0.5px solid black ;
+    border-radius: 50%;
+  }

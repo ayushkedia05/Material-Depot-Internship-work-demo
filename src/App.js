@@ -1,24 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
 
+import ShowList from './components/List';
+import Leftspace from './components/leftspace';
+import Showhead from './components/heading';
+
+import Detail from './components/details';
+const flag=false;
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ls"> <Leftspace></Leftspace> </div>
+     <Showhead role="Department/Role" access="Access level" num='No. of members' time='Last update'></Showhead>
+
+     <Detail></Detail>
+
+     <ShowList role="teacher" access="restricted" num='2' time='11'></ShowList>
+     <ShowList role="teacher" access="restricted" num='2' time='11'></ShowList>
+     <ShowList role="teacher" access="all access" num='2' time='11'></ShowList>
+     <ShowList role="teacher" access="restricted" num='2' time='11'></ShowList>
+     <ShowList role="teacher" access="restricted" num='2' time='11'></ShowList>
+     <ShowList role="teacher" access="all access" num='2' time='11'></ShowList>
+
     </div>
+
+
   );
 }
 
